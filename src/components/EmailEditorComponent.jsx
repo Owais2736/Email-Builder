@@ -9,6 +9,7 @@ const EmailEditorComponent = () => {
     if (unlayer) {
       unlayer.exportHtml((data) => {
         const { html } = data;
+        alert("HTML is exported in your browser console")
         console.log("Exported HTML:", html);
       });
     } else {
