@@ -1,12 +1,12 @@
-
+import EmailEditorComponent from "./components/EmailEditorComponent";
 
 function App() {
-
   return (
     <>
-    Hello Poo
+      <EmailEditorComponent />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
+
